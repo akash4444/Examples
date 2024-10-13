@@ -1,0 +1,64 @@
+
+.image-container{
+    width: 500px;
+    height: 300px;
+}
+
+.main-container{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.circle-container{
+ display: flex;
+ column-gap: 5px;
+ height: 10px;
+ width: 10px;
+ position: relative;
+    left: 45%;
+    bottom: -6%;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    font-size: 5px;
+    border: none;
+    border-radius: 100%;
+    background-color: aliceblue;
+}
+
+.circle:hover{
+    background-color: rgb(100, 102, 103);
+}
+
+.circle-selected{
+   background-color: rgb(68, 66, 66);
+}
+
+.arrow-button{
+border: none;
+border-radius: 100%;
+background-color: rgb(189, 179, 179);
+}
+
+.arrow-button:hover{
+    background-color: rgb(76, 70, 70);
+    }
+
+.prev-button {
+ position: relative;
+ left: -38%;
+ top:45%
+}
+
+.next-button{
+    position: relative;
+    left: 38%;
+    top:45%
+}

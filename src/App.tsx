@@ -1,6 +1,9 @@
 import React from 'react'
 import './App.css'
 import RealTimeClock from "./Components/RealTimeClock/RealTimeClock";
+import ImageCarousel from "./Components/ImageCarousel/ImageCarousel"
+
+
 
 function App() {
 
@@ -8,7 +11,8 @@ function App() {
     return (
         <>
             <div>
-              <RealTimeClock/>
+              {/* <RealTimeClock/> */}
+            <ImageCarousel/>
             </div>
         </>
     )
